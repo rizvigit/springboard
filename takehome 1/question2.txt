@@ -1,0 +1,19 @@
+Part 2:
+
+1: The metric I would chose is the increase in number of drivers from Gotham in Metropopis, and vice versa.
+
+2: 
+
+a: I will implement the experiment by getting last years data for the next three months. I will create a metric of the percent of drivers who list their hometown as Gotham, but had activity in Metropolis. And another metric of the percent of drivers who list their hometown as Metropolis, but had activity in Gotham. I will call this GothmPerc and MetroPErc, respectively.
+
+Another metric I will look at revenue per day.
+
+I will also look for how the trend is changing over the last year. I will use this to normalize my data, so I can tell the difference between an increase due to market trends vs. an increase due to our experiment. 
+
+I will then collect data over the next three months.
+
+b: I will do a p-test with bootstrapping data, to see if the increase in revenue is statistically significant. I will also do a p-test to see if change in GothmPerc and MetroPerc is statistically significant.
+
+c. I will present two findings: Change in GothmPerc/MetroPErc and change in revenue. I would explain the caveat that I had to adjust for independent market trends of increasing/decreasing revnue and GothmPerc/MetroPErc. 
+
+
